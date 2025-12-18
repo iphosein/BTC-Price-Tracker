@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x><y>0</y><width>860</width><height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BTC Tracker Pro</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="priceLabel">
+      <property name="text"><string>$--,---.--</string></property>
+      <property name="alignment"><set>Qt::AlignCenter</set></property>
+      <property name="styleSheet"><string>font-size:32px; font-weight:bold;</string></property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLabel" name="change24Label">
+        <property name="text"><string>24h: --%</string></property>
+        <property name="styleSheet"><string>font-size:18px; color:#888;</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLabel" name="high24Label">
+        <property name="text"><string>24h High: --</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="low24Label">
+        <property name="text"><string>24h Low: --</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLabel" name="sessionHighLabel">
+        <property name="text"><string>Session ↑ --</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="sessionLowLabel">
+        <property name="text"><string>Session ↓ --</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLineEdit" name="alertLine">
+        <property name="placeholderText"><string>Alert price</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="setAlertButton">
+        <property name="text"><string>Set Alert</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QWidget" name="graphWidget" native="true"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
