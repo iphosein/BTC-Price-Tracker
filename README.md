@@ -61,35 +61,7 @@ PyQt5 GUI → FastAPI → CoinGecko API
 
 > Shows live BTC price, 24h stats, interactive chart, and alert input.
 
----
 
-## 🚀 Getting Started
-
-### 1️⃣ Backend Setup (FastAPI)
-
-```bash
-pip install fastapi uvicorn httpx
-uvicorn main:app --host 127.0.0.1 --port 8080
-http://127.0.0.1:8080/bitcoin-price
-
-pip install pyqt5 pyqtgraph requests pytz
-python btc_tracker.py
-
-
-🛠️ Tech Stack
-Backend
-
-FastAPI
-
-httpx (async HTTP client)
-
-CoinGecko API
-
-Frontend
-
-PyQt5
-
-PyQtGraph
 
 Requests
 
