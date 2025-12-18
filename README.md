@@ -60,10 +60,3 @@ PyQt5 GUI → FastAPI → CoinGecko API
 ![Bitcoin Price Tracker Screenshot](https://github.com/iphosein/BTC-Price-Tracker/blob/0ae9d35394bf73189fd0a70f5a7c8f79121164ea/BTC-Price.JPG)
 
 > Shows live BTC price, 24h stats, interactive chart, and alert input.
-
-
-
-Requests
-
-pytz
-
